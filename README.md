@@ -1,4 +1,4 @@
-# sports-numbers-fans
+# Fantasy Footabll Recommendations Using Machine Learning
 
 ![Summary Figure](/images/Fantasy_Football_ML_summary_figure.jpg)
 ## Introduction
