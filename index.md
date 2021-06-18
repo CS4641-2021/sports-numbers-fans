@@ -7,8 +7,9 @@ Players of *fantasy* football, users, will select a roster of players every week
 
 Player performance is typically calculated through sentiment analysis and season simulation adjusted for defensive pairings<sup>1</sup>. However, we will be taking a different approach to our player performance projections in order to eliminate the sentiment factor which could contribute bias to the model. We will be strictly using a player's matchup and statistics such as height, strength, speed, and prior performance. In addition, we will attempt to group similar style players and defenses together to help aid in our predictive model. 
 
-
 ## Methods
+
+We are going to use a database found on Kaggle that reports the statistics of wide receivers for the 2014, 2015, and 2016. We will use these statistics to evaluate the Football Fantasy performance. We will use Random Forest, Decision Tree, and SVM for our machine learning algorithms. We will use the 2014 and 2015 statistics to train our data. Then, we will compare our machine learning predictions against the actual Fantasy performance of the wide receivers for the 2016 season.
 
 ## Results
 
@@ -21,3 +22,5 @@ https://www.washingtonpost.com/sports/2019/08/14/how-posts-fantasy-football-proj
 <sup>2</sup>Fantasy Data, https://fantasydata.com/nfl/fantasy-football-leaders?position=4&season=2020&seasontype=1&scope=2&subscope=1&startweek=1&endweek=1&aggregatescope=1&range=3
 
 <sup>3</sup>Sports Data, https://sportsdata.io/developers/data-dictionary/nfl
+
+<sup>4</sup>NFL Statistics, https://www.kaggle.com/kendallgillies/nflstatistics?select=Career_Stats_Receiving.csv
