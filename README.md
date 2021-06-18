@@ -1,7 +1,7 @@
 # Fantasy Footabll Recommendations Using Machine Learning
 
 ![Summary Figure](/images/Fantasy_Football_ML_summary_figure.jpg)
-![GitHub README - https://github.com/CS4641-2021/sports-numbers-fans#readme](https://github.com/CS4641-2021/sports-numbers-fans#readme)
+[GitHub README - https://github.com/CS4641-2021/sports-numbers-fans#readme](https://github.com/CS4641-2021/sports-numbers-fans#readme)
 ## Introduction
 
 The goal of this project is to accurately predict fantasy football performance for NFL wide receivers on a game-to-game basis. Performance is calculated via points that can be earned by a player for accumulating yards gained, touchdowns scored, or passes caught. Similarly, points can be lost by a player for losing yards or fumbling the ball. At the end of every game, a player's total points are tallied, and the player with the highest number of points has the most value for that game.
