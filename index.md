@@ -1,4 +1,4 @@
-![Summary Figure](/images/Fantasy_Football_ML_summary_figure.png)
+![Summary Figure](/images/Fantasy_Football_ML_summary_figure.jpg)
 ## Introduction
 
 The goal of this project is to accurately predict fantasy football performance for NFL wide receivers on a game-to-game basis. Performance is calculated via points that can be earned by a player for accumulating yards gained, touchdowns scored, or passes caught. Similarly, points can be lost by a player for losing yards or fumbling the ball. At the end of every game, a player's total points are tallied, and the player with the highest number of points has the most value for that game.
