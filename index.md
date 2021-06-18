@@ -15,3 +15,9 @@ Player performance is typically calculated through sentiment analysis and season
 ## Discussion
 
 ## References
+<sup>1</sup>Greenberg, Neil "How The Post’s fantasy football projections work". The Washington Post
+https://www.washingtonpost.com/sports/2019/08/14/how-posts-fantasy-football-projections-work/
+
+<sup>2</sup>Fantasy Data, https://fantasydata.com/nfl/fantasy-football-leaders?position=4&season=2020&seasontype=1&scope=2&subscope=1&startweek=1&endweek=1&aggregatescope=1&range=3
+
+<sup>3</sup>Sports Data, https://sportsdata.io/developers/data-dictionary/nfl
