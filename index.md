@@ -5,7 +5,6 @@ The goal of this project is to accurately predict fantasy football performance f
 
 Players of *fantasy* football, users, will select a roster of players every week in an attempt to accumulate the highest sum of points via their roster. Users will use a variety of information to make an informed decision on their roster selection. Typical facets of information include previous player performance, player matchups, scouting reports, and projected points. From personal experience, most players tend to lean towards projected points as the main indicator for their analysis.
 
-Player performance is typically calculated through sentiment analysis and season simulation adjusted for defensive pairings<sup>1</sup>. However, we will be taking a different approach to our player performance projections in order to eliminate the sentiment factor which could contribute bias to the model. We will be strictly using a player's matchup and statistics such as height, strength, speed, and prior performance. In addition, we will attempt to group similar style players and defenses together to help aid in our predictive model. 
 
 ## Methods
 
@@ -14,6 +13,8 @@ We are going to use a database found on Kaggle that reports the statistics of wi
 ## Results
 
 ## Discussion
+
+Player performance is typically calculated through sentiment analysis and season simulation adjusted for defensive pairings<sup>1</sup>. However, we will be taking a different approach to our player performance projections in order to eliminate the sentiment factor which could contribute bias to the model. We will be strictly using a player's matchup and statistics such as height, strength, speed, and prior performance. In addition, we will attempt to group similar style players and defenses together to help aid in our predictive model. 
 
 ## References
 <sup>1</sup>Greenberg, Neil "How The Post’s fantasy football projections work". The Washington Post
