@@ -9,6 +9,7 @@ Player performance is typically calculated through sentiment analysis and season
 
 
 ## Methods
+We are going to use a database found on Kaggle that reports the statistics of wide receivers for the 2014, 2015, and 2016. We will use these statistics to evaluate the Football Fantasy performance. We will use Random Forest, Decision Tree, and SVM for our machine learning algorithms. We will use the 2014 and 2015 statistics to train our data. Then, we will compare our machine learning predictions against the actual Fantasy performance of the wide receivers for the 2016 season. 
 
 ## Results
 
