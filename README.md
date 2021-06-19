@@ -15,7 +15,7 @@ We are going to use a database found on Kaggle that reports the statistics of wi
 
 ## Results
 
-For results, we are looking to develop an accurate predictive model to rank the best wide receiver in a fantasy league line-up. This predictive model would give the  best recommendation for a wide receiver with the highest projected points in the league game-to-game matchup. We plan to extend the learning model to other player positions, as time permits. This model would enable individual end-users to make informed decision on player selection for maximum "fantasy" points.
+For results, we are looking to develop an accurate predictive model to rank the best wide receiver in a fantasy league line-up. This predictive model would give the  best recommendation for a wide receiver with the highest projected points in the league game-to-game matchup. We plan to extend the learning model to other player positions, as time permits. This model would enable individual end-users to make informed decisions on player selection for maximum "fantasy" points.
 
 ## Discussion
 
