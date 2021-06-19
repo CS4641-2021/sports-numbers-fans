@@ -1,4 +1,4 @@
-# Fantasy Footabll Recommendations Using Machine Learning
+# Fantasy Football Recommendations Using Machine Learning
 
 ![Summary Figure](/images/Fantasy_Football_ML_summary_figure.jpg)
 [GitHub README - https://github.com/CS4641-2021/sports-numbers-fans#readme](https://github.com/CS4641-2021/sports-numbers-fans#readme)
