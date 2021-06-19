@@ -12,6 +12,8 @@ We are going to use a database found on Kaggle that reports the statistics of wi
 
 ## Results
 
+For results, we are looking to develop an accurate predictive model to rank the best wide receiver in a fantasy league line-up. This predictive model would give the  best recommendation for a wide receiver with the highest projected points in the league game-to-game matchup. We plan to extend the learning model to other player positions, as time permits. This model would enable individual end-users to make informed decisions on player selection for maximum "fantasy" points.
+
 ## Discussion
 
 Player performance is typically calculated through sentiment analysis and season simulation adjusted for defensive pairings<sup>1</sup>. However, we will be taking a different approach to our player performance projections in order to eliminate the sentiment factor which could contribute bias to the model. We will be strictly using a player's matchup and statistics such as height, strength, speed, and prior performance. In addition, we will attempt to group similar style players and defenses together to help aid in our predictive model. 
