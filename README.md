@@ -15,14 +15,36 @@ We are going to use a database found on Kaggle that reports the statistics of wi
 
 ## Results
 
-![Bayesian Ridge](/images/Bayesian Ridge Regression Test Results.png)
-<img src="/images/Bayesian Ridge Regression Test Results.png">
+#Note:Some of this may be taken out if it is also in the methods section.
 
-For results, we are looking to develop an accurate predictive model to rank the best wide receiver in a fantasy league line-up. This predictive model would give the  best recommendation for a wide receiver with the highest projected points in the league game-to-game matchup. We plan to extend the learning model to other player positions, as time permits. This model would enable individual end-users to make informed decisions on player selection for maximum "fantasy" points.
+In our correlation matrix, the darker points represent stronger correlation. In particular, we are concerned about the correlation between rank and relevant features. Candidates for features that have a strong effect on the rank of the player are ReceivingTargets, Receptions, ReceivingYards, ReceivingTouchdowns, SnapShare, RedZone Targets, TargetShare, and YardsPerPassRoute. 
 
-## Discussion
+![Matrix Coorelation](https://user-images.githubusercontent.com/85750551/125112207-dbb8f980-e0b4-11eb-9b01-d812e29d72c2.png)
 
-Player performance is typically calculated through sentiment analysis and season simulation adjusted for defensive pairings<sup>1</sup>. However, we will be taking a different approach to our player performance projections in order to eliminate the sentiment factor which could contribute bias to the model. We will be strictly using a player's matchup and statistics such as height, strength, speed, and prior performance. In addition, we will attempt to group similar style players and defenses together to help aid in our predictive model. 
+In our parallel coordinates matrix, we are able to determine which features performed normally or abnormally when considering the performance of the feature for the testing data. Features that perform abnormally are RushingYards and RedZoneTargets.
+
+![Parallel Coordinates Four Features](https://user-images.githubusercontent.com/85750551/125112208-dbb8f980-e0b4-11eb-9a6d-ad10df78f8b5.png)
+
+In the Bayesian Ridge plot as well as the RMSE chart, it is clear that the predictions for the normalized data performs better than the predictions for the standard data. In the RMSE chart, both sets of data outperform the rollover predictions. The predictions for the normalized data only performs slightly worse than the expert predictions, having an RMSE value of 3.6375 and 3.557 respectively. 
+
+![Bayesian Ridge Regression Test Results](https://user-images.githubusercontent.com/85750551/125112202-db206300-e0b4-11eb-8759-f3c52fbc7d73.png)
+![RMSE for different Models](https://user-images.githubusercontent.com/85750551/125112211-dc519000-e0b4-11eb-8731-594240e07826.png)
+
+Using the elbow method for the K-Means algorithm, the optimal value for k was determined to be 2.
+The data appears to be clustered relative to performance. The green data points correspond with players who perform better and the blue data points correspond with players who perform worse.
+
+![K Means Elbow Plot](https://user-images.githubusercontent.com/85750551/125112206-dbb8f980-e0b4-11eb-9e84-2a0f3f31ab3b.png)
+![K Means Clustering for k=2](https://user-images.githubusercontent.com/85750551/125112205-dbb8f980-e0b4-11eb-8b5c-245316368414.png)
+
+Using the residuals from a linear regression model, we see that the values for training R^2 values and testing R^2 values for testing are different. Ideally, these values are closer together. The differences in these values may suggest that our model is overfitting our data.
+
+![Residuals for Linear Regression Model for 19](https://user-images.githubusercontent.com/85750551/125112209-dc519000-e0b4-11eb-99f3-2f4174224e16.png)
+![Residuals for Linear Regression Model for 1718](https://user-images.githubusercontent.com/85750551/125112210-dc519000-e0b4-11eb-9d5d-b33fc295815e.png)
+
+
+## Discussion and Next Steps
+
+Our Bayesian Ridge Regression algorithm perform well, however our main goal is for an algorithm to perform better than the expert predictions. Due to potential overfitting for our model, we will use principal component analysis for determination of important features and implementation of dimension reduction. Additionally, we will use a random forest algorithm for our prediction and determine which algorithm performs the best using cross validation. 
 
 ## References
 <sup>1</sup>Greenberg, Neil "How The Post’s fantasy football projections work". The Washington Post
