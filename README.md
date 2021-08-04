@@ -18,15 +18,10 @@ We visualized and clustered our data using a couple unsupervised machine learnin
 We tested multiple regression models, and given our relatively low number of data points and high features, we decided to use Bayesian ridge regression with a normalized feature set.
 
 ## Results
-In our correlation matrix, the darker points represent stronger correlation. In particular, we are concerned about the correlation between rank and relevant features. Candidates for features that have a strong effect on the rank of the player are ReceivingTargets, Receptions, ReceivingYards, ReceivingTouchdowns, SnapShare, RedZone Targets, TargetShare, and YardsPerPassRoute. 
-
-![Matrix Coorelation](https://user-images.githubusercontent.com/85750551/125112207-dbb8f980-e0b4-11eb-9b01-d812e29d72c2.png)
-
-In our parallel coordinates matrix, we are able to determine which features performed normally or abnormally when considering the performance of the feature for the testing data. Features that perform abnormally are RushingYards and RedZoneTargets.
-
-![Parallel Coordinates Four Features](https://user-images.githubusercontent.com/85750551/125112208-dbb8f980-e0b4-11eb-9a6d-ad10df78f8b5.png)
-
-In the Bayesian Ridge plot as well as the RMSE chart, it is clear that the predictions for the normalized data performs better than the predictions for the standard data. In the RMSE chart, both sets of data outperform the rollover predictions. The predictions for the normalized data only performs slightly worse than the expert predictions, having an RMSE value of 3.6375 and 3.557 respectively. 
+![Initial Results](./images/rmse_init.png)
+![Tuning Results](./images/rmse_tune.png)
+![KNN and Feature Selection Results](./images/rmse_knn_feat.png)
+![CV Results](./images/rmse_knn_feat_cv.png)
 
 
 
