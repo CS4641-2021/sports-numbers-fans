@@ -2,6 +2,7 @@
 
 ![Summary Figure](/images/Fantasy_Football_ML_summary_figure.jpg)
 [GitHub README - https://github.com/CS4641-2021/sports-numbers-fans#readme](https://github.com/CS4641-2021/sports-numbers-fans#readme)
+
 [Presentation recording (BlueJeans)](https://bluejeans.com/s/rN@n9FAYzK4)
 ## Introduction
 
