@@ -39,7 +39,7 @@ We applied PCA and selected 2 components for our Support Vector Machine (SVM) cl
 
 From our SVM runs, we found that the radial basis function (RBF) SVM model gave us the best fit for our 2D decision boundary.
 
-*** Talk about CV Here ***
+Finally, in order to train our model with more data points, we used cross validation to leverage all of the data rather than setting aside a portion for training and testing. 
 
 ## Results
 
