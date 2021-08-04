@@ -18,10 +18,10 @@ We visualized and clustered our data using a couple unsupervised machine learnin
 We tested multiple regression models, and given our relatively low number of data points and high features, we decided to use Bayesian ridge regression with a normalized feature set.
 
 ## Results
-![Initial Results](./images/rmse_init.png | width=300)
-![Tuning Results](./images/rmse_tune.png | width=300)
-![KNN and Feature Selection Results](./images/rmse_knn_feat.png | width=300)
-![CV Results](./images/rmse_knn_feat_cv.png | width=300)
+![Initial Results](./images/rmse_init.png){:height="36px" width="36px"}.
+![Tuning Results](./images/rmse_tune.png){:height="36px" width="36px"}.
+![KNN and Feature Selection Results](./images/rmse_knn_feat.png){:height="36px" width="36px"}.
+![CV Results](./images/rmse_knn_feat_cv.png){:height="36px" width="36px"}.
 
 
 
