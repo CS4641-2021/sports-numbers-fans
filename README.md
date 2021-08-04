@@ -28,19 +28,6 @@ In our parallel coordinates matrix, we are able to determine which features perf
 
 In the Bayesian Ridge plot as well as the RMSE chart, it is clear that the predictions for the normalized data performs better than the predictions for the standard data. In the RMSE chart, both sets of data outperform the rollover predictions. The predictions for the normalized data only performs slightly worse than the expert predictions, having an RMSE value of 3.6375 and 3.557 respectively. 
 
-![Bayesian Ridge Regression Test Results](https://user-images.githubusercontent.com/85750551/125112202-db206300-e0b4-11eb-8759-f3c52fbc7d73.png)
-![RMSE for different Models](https://user-images.githubusercontent.com/85750551/125112211-dc519000-e0b4-11eb-8731-594240e07826.png)
-
-Using the elbow method for the K-Means algorithm, the optimal value for k was determined to be 2.
-The data appears to be clustered relative to performance. The green data points correspond with players who perform better and the blue data points correspond with players who perform worse.
-
-![K Means Elbow Plot](https://user-images.githubusercontent.com/85750551/125112206-dbb8f980-e0b4-11eb-9e84-2a0f3f31ab3b.png)
-![K Means Clustering for k=2](https://user-images.githubusercontent.com/85750551/125112205-dbb8f980-e0b4-11eb-8b5c-245316368414.png)
-
-Using the residuals from a linear regression model, we see that the values for training R^2 values and testing R^2 values for testing are different. Ideally, these values are closer together. The differences in these values may suggest that our model is overfitting our data.
-
-![Residuals for Linear Regression Model for 19](https://user-images.githubusercontent.com/85750551/125112209-dc519000-e0b4-11eb-99f3-2f4174224e16.png)
-![Residuals for Linear Regression Model for 1718](https://user-images.githubusercontent.com/85750551/125112210-dc519000-e0b4-11eb-9d5d-b33fc295815e.png)
 
 
 ## Discussion and Next Steps
