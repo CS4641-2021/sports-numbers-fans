@@ -28,7 +28,10 @@ We decided to use one model going forward in order to cut back on training time 
 
 
 *** Talk about KNN / Feat Selection / CV Here ***
+Given the limited set of data points in our model, we decided to use K-Nearest neighbors with 25 nearest neighbors to impute missing values instead of dropping the data point altogether. This allowed us to increase our number of data points from 146 to 462 total data points from the 2017-2018 season. We focused on feature engineering to imporve the accuracy of our model, and used both unsupervised and supervised learning techniques like forward feature selection, K-means clustering,
+and principal component analysis.
 
+With K-means clustering on select features, we found that our optimal number of clusters based on rushing yards and red zone targets was 2 clusters, as shown below.
 
 
 
