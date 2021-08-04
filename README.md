@@ -66,3 +66,5 @@ https://www.washingtonpost.com/sports/2019/08/14/how-posts-fantasy-football-proj
 <sup>3</sup>Sports Data, https://sportsdata.io/developers/data-dictionary/nfl
 
 <sup>4</sup>NFL Statistics, https://www.kaggle.com/kendallgillies/nflstatistics?select=Career_Stats_Receiving.csv
+
+<sup>5</sup>Scikit-Learn User Guide, https://scikit-learn.org/stable/user_guide.html
