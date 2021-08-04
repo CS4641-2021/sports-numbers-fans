@@ -26,11 +26,20 @@ We decided to use one model going forward in order to cut back on training time 
 ![Tuning Results](./images/rmse_tune.png)
 
 
+Given the limited set of data points in our model, we decided to use K-Nearest neighbors with 25 nearest neighbors to impute missing values instead of dropping the data point altogether. This allowed us to increase our number of data points from 146 to 462 total data points from the 2017-2018 season. We focused on feature engineering to imporve the accuracy of our model, and used both unsupervised and supervised learning techniques like forward feature selection, K-means clustering,
+and principal component analysis (PCA).
 
-*** Talk about KNN / Feat Selection / CV Here ***
+With K-means clustering on select features, we found that our optimal number of clusters based on rushing yards and red zone targets was 2 clusters, as shown below.
 
+![Receiving Yards Clusters](/images/receiving_yards_cluster.png) ![Red Zone Targets Clusters](/images/red_zone_clusters.png)
 
+We applied PCA and selected 2 components for our Support Vector Machine (SVM) classifiers to categorize our data into two tiers - tier1 for players with greater than 10 fantasy points, and tier2 for the rest.
 
+![Principal Components](/images/pca_components_final.png) ![SVM Classifiers](/images/SVM_classifiers.png)
+
+From our SVM runs, we found that the radial basis function (RBF) SVM model gave us the best fit for our 2D decision boundary.
+
+*** Talk about CV Here ***
 
 ## Results
 
