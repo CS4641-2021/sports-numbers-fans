@@ -56,6 +56,12 @@ Unfortunately, we were unable to achieve any better results using cross-validati
 
 ## Discussion and Next Steps
 
+Our models predicted the average number of points per game that wide receivers would score on a seasonal basis. We measured the performance of our models against expert predictions using root mean square error, or RMSE. After using various models and applying different machine learning methods to our dataset, we were able to achieve results that outperformed the expert predictions. These methods can be used in a Fantasy Football league to select wide receivers that will score the most points throughout a season.
+
+There are many methods that can be used to benefit the performance of our models. We were unable to acquire more data, as every year of data requires a payment to fantasydata.com. The datasets from fantasydata.com were also missing some data points. We used the K-nearest-neighbors method to fill in any missing data, however, the real values for the missing data would further improve our models. Creating a program that would scrape through the web pages to acquire the desired information would both be cheaper and boost the performance of our models. Furthermore, the addition of a biasing component to our algorithms would fix the underfitting issues that our models exhibited. 
+
+Further fine-tuning of the models will lead to better results, thus more accurately predicting which wide receivers will perform the best. If these methods are extended to other positions in the NFL, or used on a game-by-game basis, a roster selected purely from machine learning predictions would be feasible. Thus, increasing potential earnings made from scoring the most points in a Fantasy Football league.
+
 
 ## References
 <sup>1</sup>Greenberg, Neil "How The Post’s fantasy football projections work". The Washington Post
