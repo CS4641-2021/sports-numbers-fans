@@ -15,7 +15,6 @@ We aggregated data from fantasydata.com for the 2017-2020 season. Our data consi
 
 We visualized and clustered our data using a couple unsupervised machine learning techniques in order to understand our data. We created a coorelational heat map to understand relationships in features. We used K-means clustering in order to identify any potential groupings in our data points. Additionally, we used parallel coordinates to visualize a normalized version of our data, which was grouped into bins according to the target variable. All of these methods together gives us an understanding of where potential sources of error can occur for a regression model.
 
-
 Below, we are testing various regression models on our data. These models are being used with out-of-the-box parameters and are meant to serve as a basis for future improvement. We find that Bayesian Ridge looks to be the promising regression model from the start.
 
 ![Initial Results](./images/rmse_init.png)
@@ -46,7 +45,6 @@ Unfortunately, we were unable to achieve any better results using cross validati
 
 ## Discussion and Next Steps
 
-Our Bayesian Ridge Regression algorithm perform well, however our main goal is for an algorithm to perform better than the expert predictions. Due to potential overfitting for our model, we will use principal component analysis for determination of important features and implementation of dimension reduction. Additionally, we will use a random forest algorithm for our prediction and determine which algorithm performs the best using cross validation.
 
 ## References
 <sup>1</sup>Greenberg, Neil "How The Post’s fantasy football projections work". The Washington Post
